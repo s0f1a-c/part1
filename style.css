@@ -40,12 +40,14 @@ a{
     border: 1px solid white;
     padding: 25px;
     text-align: center;
+    
 
 }
 
 img{
 max-width: 200px;
 height: auto;  
+box-shadow: 10px 10px rgb(74, 73, 73);
 }
 
 #home{

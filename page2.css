@@ -48,6 +48,7 @@ a{
 img{
 max-width: 200px;
 height: auto;  
+box-shadow: 10px 10px rgb(74, 73, 73);
 }
 
 footer{
