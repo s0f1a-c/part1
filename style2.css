@@ -35,6 +35,7 @@
 a{
   color: #762705;
   font-size: medium;
+  font-style:italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -42,7 +43,6 @@ a{
 body{
   max-height: 100px;
   max-width: 30px;
-  background-image: url(page2img/background-01.png);
   width: 100vw;
   height: 100vh;
   overflow: hidden;
