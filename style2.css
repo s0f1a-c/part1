@@ -1,0 +1,53 @@
+
+
+/* Container holding the image and the text */
+  
+  /* Top left text */
+  .top-left {
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: fixed;
+    top: 70px;
+    right: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+
+
+  }
+  
+  /* Centered text */
+.centered {
+    position: fixed;
+    top: 90px;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+
+}
+
+a{
+  color: #762705;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+  max-height: 100px;
+  max-width: 30px;
+  background-image: url(page2img/background-01.png);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  position:sticky;
+}

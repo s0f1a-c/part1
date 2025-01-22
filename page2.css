@@ -8,12 +8,17 @@ body{
 header{
     text-align: center;
     padding: 20px;
-    color: blue;
+    color: white;
+}
+
+a{
+    color:white
 }
 
 .main{
-    margin-left: 500px;
+    left: 50%;
     size: 500px;
+    justify-content: center;
 
 }
 
@@ -56,12 +61,22 @@ footer{
 
 #home{
 
-    margin-left: 200px;
-    margin-top: 100px;
     margin-bottom: 0;
     font-size: x-large;
     color: whitesmoke;
+    text-align: left;
+    margin-left: 20%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#about{
+    justify-content: left;
+    font-size: xx-large;
+    color: whitesmoke;
+    text-align: right;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .expand-text{
